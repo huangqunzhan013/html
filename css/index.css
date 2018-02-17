@@ -1,0 +1,151 @@
+        *{
+		padding: 0px;
+		margin: 0px;
+	}
+	.img{
+		/*width: 100%;设置背景*/
+		height: auto;
+		/*max-width: 100%;*//*不会超过本身大小*/
+		display: block;
+		max-width: 100%;
+	}
+	.navbar{
+		margin-bottom: 20px;
+	}
+	.list-group-item a{
+		color: #495057;
+		text-decoration:block;
+		word-break: keep-all;/*设置文本只能在半角空格或连字符处换行*/
+		white-space: nowrap;/*设置文本不换行*/
+		overflow: hidden;/*设置超出部分隐藏*/
+		text-overflow: ellipsis;/*显示省略符号来代表被修建的文本*/
+		display: block;/*此元素将显示为块级元素，此元素前后带有换行符*/
+		font: 15px"Microsoft YaHei"
+	}
+	.card-header{
+		margin-bottom:0px;
+	}
+	.card-header img{
+		width: 16px;
+		height: 16px;
+		margin-right: 5px;
+	}
+	.card{
+		margin-bottom: 20px;
+	}
+	.card-body input{
+		height: 25px;
+		/*vertical-align: middle;*/	
+	}
+	.form-check-label{
+		font-size: 10px;
+		margin-bottom: 10px;
+	}
+	.modal-header img{
+		width: 22px;
+		height: 22px;
+		margin-right: 10px;
+		margin-top: 6px;
+	}
+	.modal .modal-body a{
+		margin:0 auto;
+		text-align: center;
+	}
+	.mp4 video{
+		width: 445px;
+	}
+	.nav-item{
+		width: 121px;
+		text-align: center;
+		color: #5368d2;
+	}
+	.nav-item:hover{
+		color: blue;
+	}
+	.nav-item img{
+		width: 15px;
+		height: 15px;
+	}
+	.media img{
+		margin-left: 20px;
+		width: 150px;
+		height: 80px;
+		-moz-transition:all 3s ease-in-out;/*兼容Firefox   transition*/
+		-webkit-transition:all 3s ease-in-out;/*Safari 和 Chrome*/
+		-o-transition:all 3s ease-in-out;/*Opera*/
+		-ms-transition:all 3s ease-in-out;/*IE*/
+		transition: all 3s ease-in-out;/*3d旋转*/
+	}
+	.media img:hover{
+		-moz-transform:rotateY(180deg);
+		-webkit-transform:rotateY(180deg);
+		-o-transform:rotateY(180deg);
+		-ms-transform:rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+	.media-body{
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: justify;
+	}
+	#divChannelLink .col-md-4 img{
+		margin: 0 auto;
+		transform: translateY(0rem);
+		transition: all .25s ease;
+	}
+	#divChannelLink .col-md-4:hover img{
+		transform: translateY(-1rem);
+	}
+	#video{
+		width: 100%;
+		height: auto;/*如果 width 属性设置为 100%，视频播放器会根据屏幕大小自动调整比例
+		且可以比原始尺寸大。更多情况下我们可以使用 max-width 属性来替代。
+		如果 max-width 属性设置为 100%, 视频播放器会根据屏幕自动调整比例，但不会超过其原始大小*/
+	}
+	#divFooter{
+		background-color: #34383d;
+		margin-top: 10px;
+	}
+	#divFooter .row div{
+		color: #cccacc;
+		font:15px"Microsoft yahei";
+		line-height: 30px;
+	}
+	#divFooter .row a{
+		color: #cccacc;
+	}
+	#divFooter .row ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#divFooter .rowLinkLogo{
+		padding: 30px 0;
+		border-bottom: 1px solid #2b2e32;
+	}
+	.rowLinkLogo .leftLink{
+		text-align: right;
+		border-right: 1px solid #454a51;
+	}
+	.rowLinkLogo .centerLogo{
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.rowLinkLogo .rightLink{
+		text-align: left;
+		border-left: 1px solid #454a51;
+	}
+	.divCopyright{
+		background-color: #2b2e32;
+		border-top: 1px solid #3e4248;
+		padding: 20px 0px;
+		text-align: center;
+	}
+	.divCopyright center{
+		color: #cccacc;
+		font-weight: bold;
+	}
+
+	
+ 
